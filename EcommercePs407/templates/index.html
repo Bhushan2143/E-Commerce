@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline bootstrap </title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4"><!--Header section start or 1st row start-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">E-Shopping402</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div><!--Header section end or 1st row end-->
+
+        <div class="row mt-4 p-3"><!--main section start or 2nd row start-->
+            <div class="col-md-3"><!--side bar start-->
+                <h5>Filter By Category</h5><hr>
+                <a href="#">All</a><br>
+                <a href="#">Mobile</a><br>
+                <a href="#">Shoes</a><br>
+                <a href="#">Cloth</a><br>
+                <br>
+                <h5>Filter By Price</h5><hr>
+                <form action="#" method="get">
+                    <div class="mb-1">
+                        <label for="input1" class="form-label">Min</label>
+                        <input type="number" class="form-control" id="input1">
+                    </div>
+                    <div class="mb-1">
+                        <label for="input2" class="form-label">Max</label>
+                        <input type="number" class="form-control" id="input2">
+                    </div>
+                      
+                    <button class="btn btn-danger">Find</button>
+                </form>
+                <br>
+                <h5>Sort By Price</h5><hr>
+                <a href="#">High to Low</a><br>
+                <a href="#">Low to High</a>
+            </div><!--side bar end-->
+            <div class="col-md-9"><!--Product list section start-->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/nike.jpeg" class="card-img-top" alt="..." height="150px">
+                            <div class="card-body">
+                              <h5 class="card-title">Nike</h5>
+                              <p class="card-text"><b>Price:</b> Rs.2000</p>
+                              <a href="product_detail.html" class="btn btn-primary">See Detail</a>
+                            </div>
+                          </div>
+                    </div><!--Product 1-->
+                    <div class="col-md-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/nike.jpeg" class="card-img-top" alt="..." height="150px">
+                            <div class="card-body">
+                              <h5 class="card-title">Nike</h5>
+                              <p class="card-text"><b>Price:</b> Rs.2000</p>
+                              <a href="product_detail.html" class="btn btn-primary">See Detail</a>
+                            </div>
+                          </div>
+                    </div><!--Product 2-->
+                    <div class="col-md-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/nike.jpeg" class="card-img-top" alt="..." height="150px">
+                            <div class="card-body">
+                              <h5 class="card-title">Nike</h5>
+                              <p class="card-text"><b>Price:</b> Rs.2000</p>
+                              <a href="product_detail.html" class="btn btn-primary">See Detail</a>
+                            </div>
+                          </div>
+                    </div><!--Product 3-->
+                    <div class="col-md-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/nike.jpeg" class="card-img-top" alt="..." height="150px">
+                            <div class="card-body">
+                              <h5 class="card-title">Nike</h5>
+                              <p class="card-text"><b>Price:</b> Rs.2000</p>
+                              <a href="product_detail.html" class="btn btn-primary">See Detail</a>
+                            </div>
+                          </div>
+                    </div><!--Product 4-->
+                </div>
+            </div><!--Product list section end-->
+        </div><!--main section end or 2nd row end-->
+
+        <div class="row mt-4 p-3 bg-light"><!--footer section start or 3rd row start-->
+            <div class="col-md-4 p-4 ">
+                <h5>Address</h5><hr>
+                22-B,1st Floor,<bR>
+                Rainbow Plaza,<br>
+                Shivar chowk,Pimple Saudagar,<br>
+                Pune 411027
+            </div>
+            <div class="col-md-4 p-4">
+                <h5>Quick Links</h5><hr>
+                <a href="index.html">Home</a><br>
+                <a href="#">About</a><br>
+                <a href="#">Contact</a><br>
+            </div>
+            <div class="col-md-4 p-4">
+                <h5>Social Media</h5><hr>
+                <a href="#"><i class="bi bi-linkedin"></i></a><bR>
+                <a href="#"><i class="bi bi-facebook"></i></a><br>
+                <a href="#"><i class="bi bi-instagram"></i></a><br>
+                <a href="#"><i class="bi bi-twitter"></i></a><br>
+            </div>
+        </div><!--footer section end or 3rd row end-->
+
+    </div>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/popper.js"></script>
+</body>
+</html>
